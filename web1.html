@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>image.me</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap" rel="stylesheet">
+<style>
+   * {
+      margin: 0px;
+      padding: 0px;
+   }
+
+   #top_head {
+      height: 538px;
+      width: 1333px;
+
+   }
+
+   #top_img {
+      height: 538px;
+      width: 1349px;
+   }
+
+   #head {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-52%, -70%);
+      border: 2px solid white;
+      padding: 96px 122px;
+      color: white;
+   }
+
+   #name {
+      font-family: 'Manrope', sans-serif;
+      font-weight: bold;
+      letter-spacing: 10px;
+
+   }
+
+   .options {
+      list-style: none;
+      background-color: rgb(241, 241, 241);
+      overflow: auto;
+      padding: 0px 10px;
+
+   }
+
+   .options li a {
+      float: left;
+      text-decoration: none;
+      color: black;
+      margin: 30px 185px;
+      font-family: 'Manrope', sans-serif;
+      font-weight: bold;
+
+   }
+
+   .options li a:hover {
+      color: rgb(146, 140, 140);
+   }
+
+   .parent {
+      justify-content: center;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+   }
+
+   .child {
+      height: 600px;
+      width: 1138px;
+      margin-left: 110px;
+      margin-top: 20px;
+
+   }
+
+   #img1 {
+      height: 600px;
+      width: 1138px;
+
+   }
+
+   #img2 {
+      height: 600px;
+      width: 1138px;
+
+   }
+
+   #img3 {
+      height: 600px;
+      width: 1138px;
+
+   }
+
+   #img4 {
+      height: 600px;
+      width: 1138px;
+
+   }
+
+   #img5 {
+      height: 600px;
+      width: 1138px;
+
+   }
+</style>
+
+<body>
+  
+   <div id="top_head"><img id="top_img" src="colin-lloyd-RMAXf5QwjTs-unsplash.jpg" alt="picture">
+      <div id="head">
+         <h1 id="name">JANE DOE</h1>
+      </div>
+   </div>
+   <h3>
+      <ul class="options">
+         <li><a href="#">Home</a></li>
+         <li><a href="#">Portfolio</a></li>
+         <li><a href="#">Contact</a></li>
+
+      </ul>
+   </h3>
+   <div class="parent">
+      <div class="child"><img id="img1" src="jakob-stenqvist-IvjyerTIgdg-unsplash.jpg" alt="img1"></div>
+      <div class="child"><img id="img2" src="tim-marshall-qKlD2QlK-CY-unsplash.jpg" alt="img2"></div>
+      <div class="child"><img id="img3" src="joshua-kirshner-dotMRIlU-Ig-unsplash.jpg" alt="img3"></div>
+      <div class="child"><img id="img4" src="tim-marshall-nuc-mltC4iQ-unsplash.jpg" alt="img4"></div>
+      <div class="child"><img id="img5" src="graham-holtshausen-63JKK67yGUE-unsplash.jpg" alt="img5"></div>
+   </div>
+
+</body>
+
+</html>
